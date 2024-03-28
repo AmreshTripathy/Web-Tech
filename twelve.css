@@ -1,0 +1,19 @@
+* {
+    color: greenyellow;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: pink;
+}
+
+.first {
+    color: aqua;
+}
+
+#second {
+    color: blueviolet;
+}

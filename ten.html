@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <marquee behavior="alternate" direction="" width="200"
+      ><h1>Entry Form</h1></marquee
+    >
+    <form action="">
+      <label for=""
+        >Name:
+        <input type="text" required />
+      </label>
+      <br />
+      <br />
+      <label for=""> D.O.B: <input type="date" /> </label>
+      <br />
+      <br />
+      <label for="">
+        Gender: <input type="radio" name="gender" value="MALE" checked />Male
+        <input type="radio" name="gender" value="Female" /> Female
+        <input type="radio" name="gender" value="Others" /> Others
+      </label>
+      <br />
+      <br />
+      <label for="">
+        Phone: <input type="tel" pattern="[0-9]{10}" required />
+      </label>
+      <br /><br />
+      <label for=""> Email: <input type="email" required /> </label>
+      <br /><br />
+      <label for="">
+        Address: <textarea name="" id="" cols="30" rows="10"></textarea>
+      </label>
+      <br /><br />
+      <label for=""> Upload: <input type="file" /> </label>
+      <br /><br />
+      <label for="">
+        Documents:
+        <input type="checkbox" name="document" />MC
+        <input type="checkbox" name="document" />AC
+        <input type="checkbox" name="document" />RC
+      </label>
+      <br /><br />
+      <label for="">
+        City:
+        <select name="city" id="">
+          <option value="">Bengaluru</option>
+          <option value="">Bhubaneswar</option>
+          <option value="">Delhi</option>
+          <option value="">Sambalpur</option>
+        </select>
+      </label>
+      <br /><br />
+      <label for=""> Age: <input type="number" min="18" max="80" /></label>
+      <br /><br />
+      <label for="">
+        Password: <input type="password" placeholder="Enter Password"
+      /></label>
+      <br /><br />
+      <input type="reset" name="" id="" />&nbsp;&nbsp;&nbsp;&nbsp;<input
+        type="submit"
+        name=""
+        id=""
+      />
+    </form>
+  </body>
+</html>

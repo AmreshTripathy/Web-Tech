@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    font-family: 'Roboto';
+}
+
+.faeatured_courses {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    align-items: center;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+
+    margin-inline: 1.5rem;
+    width: 23vw;
+    height: 95vh;
+    border-radius: 2px;
+}
+
+.course:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.small-icon {
+    margin: 1.5rem;
+}
+
+.deatils {
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+.col-2 {
+    flex: 0 0 16.66666667%;
+    max-width: 16.66666667%;
+    height: 4px;
+    margin: 1.5rem 0;
+}
+
+.bg-primary {
+    background-color: #29413b !important;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #191919;
+    line-height: 1.5;
+
+    margin-bottom: 2rem;
+}
+
+Span {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #191919;
+
+    margin: 1.5rem 0;
+}
+
+.but {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: end;
+}
+
+button {
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    color: #29413b;
+    border: 1px solid #29413b;
+
+    height: 2.5rem;
+    width: 6.5rem;
+    background-color: transparent;
+    border-radius: 5rem;
+
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #29413b;
+    color: white;
+}
